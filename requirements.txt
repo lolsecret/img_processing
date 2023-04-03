@@ -1,0 +1,15 @@
+asgiref==3.6.0
+Django==4.1.7
+django-db-log==2.2.1
+django-db-logger==0.1.12
+django-filter==23.1
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+numpy==1.24.2
+opencv-python==4.7.0.72
+Pillow==9.5.0
+PyJWT==2.6.0
+pytz==2023.3
+request-id-django-log==0.2.0
+six==1.16.0
+sqlparse==0.4.3

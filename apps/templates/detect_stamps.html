@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Detect Stamps{% endblock %}
+
+{% block content %}
+    <div class="form-container">
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <h2>Загрузка изображения</h2>
+            <div class="form-group">
+                <label for="image">Выберите изображение для поиска подписей:</label>
+                {{ form.image }}
+            </div>
+            <button type="submit" class="btn btn-primary">Поиск</button>
+        </form>
+    </div>
+{% endblock %}
